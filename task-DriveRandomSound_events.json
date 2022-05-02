@@ -70,12 +70,7 @@
             "right_perturb": "Perturbation that moves the vehicle to the right via perpendicular force.",
             "show_speed_sign": "A mph road sign of specified speed.",
             "trial_marker": "Data collection for a trial",
-            "tile_change": "A change of experimental condition with a 2 by 2 design varying visual complexity and perturbation rate.",
-            "experiment": "Experiment ",
-            "environmental_area": "Checks should be for authorization to a specified area.",
-            "show_image": "Show an ID image.",
-            "take_survey": "Participant takes a survey",
-            "system_failure": "A system failure causes data to be invalid"
+            "tile_change": "A change of experimental condition with a 2 by 2 design varying visual complexity and perturbation rate."
         },
         "HED": {
             "course_correction": "(Definition/Course-correction, (Agent-action, Experiment-participant, ((Operate, Label/Drive), (Vehicle, (Towards, Lane)))))",
@@ -87,14 +82,9 @@
             "play_sound_clip": "(Definition/Play-sound-clip/#, (Auditory-presentation, Audio-clip, Label/#))",
             "press_button": "(Definition/Press-button, (Agent-action, Participant-response, (Experiment-participant, (Press, Push-button))))",
             "right_perturb": "(Definition/Right-perturb, (Experiment-control, Sensory-event, Controller-agent, ((Push, (Car)), (Right-side-of, Lane))))",
-            "show_speed_sign": "(Definition/Show-speed-sign/#, (Sensory-event, Visual-presentation, (Navigational-object/Road-sign, Speed/# mph)))",
+            "show_speed_sign": "(Definition/Show-speed-sign/#, (Sensory-event, Visual-presentation, ((Navigational-object, Label/Road-sign), Speed/# mph)))",
             "trial_marker": "(Definition/Trial-marker, (Experiment-structure, Experimental-trial))",
-            "tile_change": "(Definition/Tile-change, (Experiment-structure, (Environmental-property, Terrain), (Experimental-stimulus, Temporal-rate)))",
-            "experiment": "(Definition/Experiment/#,  (Experiment-structure, Task, Label/#))",
-            "environmental_area": "(Definition/Environmental-area/#, (Experiment-structure,  Condition-variable/Environmental-area-cond, Label/#, Time-block))",
-            "show_image": "(Definition/Show-image, (Sensory-event, Visual-presentation, (Image, Label/ID-badge)))",
-            "take_survey": "(Definition/Take-survey, (Agent-action, (Experiment-participant, (Perform, (Label/Take-survey, Touchscreen)))))",
-            "system_failure": "(Definition/System-failure/#, (Experiment-control, Label/#, Mishap))"
+            "tile_change": "(Definition/Tile-change, (Experiment-structure, (Environmental-property, Terrain), (Experimental-stimulus, Temporal-rate)))"
         }
     }
 }
